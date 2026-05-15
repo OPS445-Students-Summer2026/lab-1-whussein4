@@ -4,4 +4,6 @@ x = 10
 y = 2
 z = 5
 
-print(str(x) + " + " + str(y) + " * " + str(z) + " = " + str(x + y * z))
+result = x + y * z
+
+print(str(x) + " + " + str(y) + " * " + str(z) + " = " + str(result))
